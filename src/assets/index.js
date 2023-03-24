@@ -25,6 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import ebay from "./company/ebay.png";
+import microsoft from "./company/microsoft.png";
+import accor from "./company/accor.png";
+import augmentum from "./company/augmentum.png";
+import jingoal from "./company/jingoal.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,6 +61,11 @@ export {
   shopify,
   starbucks,
   tesla,
+  ebay,
+  microsoft,
+  accor,
+  augmentum,
+  jingoal,
   carrent,
   jobit,
   tripguide,
