@@ -31,8 +31,8 @@ import accor from "./company/accor.png";
 import augmentum from "./company/augmentum.png";
 import jingoal from "./company/jingoal.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import extensionForIG from "./ExtensionForInstagram.png";
+import guess from "./guess.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -66,7 +66,7 @@ export {
   accor,
   augmentum,
   jingoal,
-  carrent,
-  jobit,
+  extensionForIG,
+  guess,
   tripguide,
 };

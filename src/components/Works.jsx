@@ -15,6 +15,8 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  reference_text,
+  reference_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -62,6 +64,10 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+        {reference_link && <div>
+          <a target="_blank" href={reference_link}>{reference_text}</a>
+          </div>
+        }
       </Tilt>
     </motion.div>
   );
@@ -72,7 +78,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Side Projects.</h2>
       </motion.div>
 
       <div className='w-full flex'>

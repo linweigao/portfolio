@@ -19,8 +19,8 @@ import {
   ebay,
   augmentum,
   jingoal,
-  carrent,
-  jobit,
+  extensionForIG,
+  guess,
   tripguide,
   threejs,
   accor,
@@ -190,6 +190,47 @@ const experiences = [
   },
 ];
 
+const projects = [
+  {
+    name: "Extension For Instagram",
+    description:
+      "A Chrome extension to enpower instagram web experience, including upload/download photos, direct messaging, picture in picture and more. By 2022, there are 200k+ users.",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Chrome extension",
+        color: "green-text-gradient",
+      }
+    ],
+    image: extensionForIG,
+    source_code_link: "https://github.com/linweigao/instagram.web/",
+    reference_link: "https://blog.ainfluencer.com/instagram-chrome-extensions/#2-Extension-For-Instagram",
+    reference_text: "Click here to see other's comments",
+  },
+  {
+    name: "Guess what (Game)",
+    description:
+      "A flutter app to test your brain with funny ICON hint, which is available on web, IOS, Android. Unforunately there are not many installs, but I loved that.",
+    tags: [
+      {
+        name: "Dart",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Flutter",
+        color: "green-text-gradient",
+      },
+    ],
+    image: guess,
+    source_code_link: "https://github.com/linweigao/guess",
+    reference_text: "Click to play it now.",
+    reference_link: "https://linweigao.github.io/guess/#/",
+  },
+];
+
 const testimonials = [
   {
     testimonial:
@@ -198,88 +239,6 @@ const testimonials = [
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
-const projects = [
-  {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
   },
 ];
 
