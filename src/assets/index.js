@@ -19,6 +19,10 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import csharp from "./tech/csharp.png";
+import sql from "./tech/sql.png";
+import spark from "./tech/spark.png";
+import kubernetes from "./tech/kubernetes.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
@@ -56,6 +60,10 @@ export {
   redux,
   tailwind,
   typescript,
+  csharp,
+  sql,
+  spark,
+  kubernetes,
   threejs,
   meta,
   shopify,
