@@ -48,8 +48,9 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a skilled software developer with experience from FrontEnd to
-        Backend, and expertise in frameworks like React, Node.js, .Net and
-        . I'm a quick learner and collaborate closely with clients to
+        Backend, and expertise in frameworks like React, Node.js, .Net, (No/New-)SQL,
+        K8s on AWS/Azure. I am learning Mobile development, Blockchain and AI.
+        I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
